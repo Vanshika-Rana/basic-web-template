@@ -22,7 +22,7 @@ export const Header = () => {
 	}, []);
 
 	return (
-		<div className="relative text-center  flex justify-center items-center lg:h-[90vh] bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-900 to-black">
+		<div className='relative text-center  flex justify-center items-center lg:h-[90vh] '>
 			<div className='absolute inset-x-0 bottom-0'>
 				<svg
 					viewBox='0 0 224 12'
