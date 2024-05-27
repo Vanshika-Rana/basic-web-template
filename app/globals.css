@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .animated-background {
-	background-size: 200%; /* Adjust as needed to achieve the desired effect */
+	background-size: 200%;
 	background-position: center center;
 
-	-webkit-animation: animation 4s ease infinite;
-	-moz-animation: animation 4s ease infinite;
-	animation: animation 4s ease infinite;
+	-webkit-animation: animation 2s ease infinite;
+	-moz-animation: animation 2s ease infinite;
+	animation: animation 2s ease infinite;
 }
 
 @keyframes animation {
@@ -18,6 +18,6 @@
 	}
 
 	50% {
-		background-position: 70% 70%; /* Slightly shifted */
+		background-position: 90% 90%; /* Slightly shifted */
 	}
 }
